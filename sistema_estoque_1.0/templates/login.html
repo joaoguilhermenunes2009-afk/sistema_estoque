@@ -1,0 +1,12 @@
+<html> 
+    <h1> Sistemade Estoque </h1>
+    {% if erro %}
+        <p> {{ erro }}</p>
+    {% endif %}
+    <form action = "/loguin" method="POST">
+        loguin: <input type="text" name="loguin">
+        <br>
+        senha: <input type="password " name=" senha">
+        <br>
+        <button type="submit"> ENTRAR </button>
+</html>
